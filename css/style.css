@@ -1,0 +1,72 @@
+body{
+    width: 960px;
+    margin: 15px auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;    
+    font-size: 18px;
+    background-color: #eaeaea;
+    color: #2e2e2e;
+}
+
+p{
+    margin: 0 0 20px 0;
+}
+
+p, li{
+    line-height: 20px;
+}
+
+header#pageheader{
+    width: 100%;
+    text-align: center;
+    
+}
+
+header#pageheader nav ul, #pagefooter nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header#pageheader nav ul li, #pagefooter nav ul li{
+    padding: 0;
+    margin: 0 20px 0 0;
+    display: inline;
+}
+
+section#posts {
+    float: left;
+    width: 74%;
+    text-indent: 20px;    
+}
+
+section#posts aside{
+    float: right;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 5%;
+    width: 35%;
+    font-style: italic;
+    text-align: right;
+}
+
+section#posts h2{
+    text-align: center;
+}
+
+#sidebar{
+    float: left;
+    width: 25%;
+}
+
+#pagefooter{
+    clear:both;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+p#pubdate {
+    font-size: 12px;
+    font-style: italic;
+}
+
